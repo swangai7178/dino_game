@@ -9,7 +9,7 @@ class DinoPlayer extends SpriteAnimationComponent with HasGameRef {
   late final SpriteAnimation _walkingLeftAnimation;
   late final SpriteAnimation _idleAnimation;
 
-  final double _animationSpeed = .15;
+  final double _animationSpeed = 5;
   Direction direction = Direction.none;
 
   @override
